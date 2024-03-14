@@ -20,7 +20,7 @@ router.get('/', (req, res) => {
 });
 
 router.post('/', upload.single('file'), (req, res) => {
-  runRsync();
+  //runRsync();
   console.log(res)
 });
 

@@ -8,7 +8,7 @@ var { validateUserToken } = require("../../../middlewares/validateToken");
 var { encryptResponse, decryptRequest } = require("../../../middlewares/crypt");
 
 const axios = require('axios');
-const apiUrl = 'https://shield-bank.com/api/mydata/send_btob';
+const apiUrl = 'http://127.0.0.1:3000/api/mydata/send_btob';
 
 /**
  * Balance transfer route
